@@ -11,9 +11,13 @@ const enter = document.querySelector('.fa-level-down-alt');
 let toDoDivsAll = document.querySelectorAll('.todo-item');
 const fullList = document.querySelector('.full-list');
 const newItem = document.getElementById('new-item');
-let toDoText = document.querySelectorAll('.todo');
 let numberIndex = 0;
 let itemText = '';
+let toDoText = '';
+
+function initializeToDoText() {
+  toDoText = document.querySelectorAll('.todo');
+}
 
 function hitEnter() {
   enter.addEventListener('click', () => {
@@ -49,7 +53,7 @@ function addNewItem() {
       newItem.value = '';
       hitEnter();
       context();
-      toDoText = document.querySelectorAll('.todo');
+      initializeToDoText();
       const textArea = toDoText[numberIndex];
       textArea.innerText = itemText;
       toDoItems.push(new ToDoItem(itemText, false, numberIndex));
@@ -72,7 +76,7 @@ function addNewItem() {
 function displayStored() {
   for (let i = 0; i < toDoItems.length; i += 1) {
     context();
-    toDoText = document.querySelectorAll('.todo');
+    initializeToDoText();
     toDoText[i].innerText = toDoItems[i].description;
     showItems();
     checkButton();
