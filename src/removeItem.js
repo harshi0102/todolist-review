@@ -1,4 +1,4 @@
-//importing
+// importing
 import { getStatus, showItems } from './status.js';
 
 let textFields = document.querySelectorAll('.todo');

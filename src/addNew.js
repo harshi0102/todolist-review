@@ -1,4 +1,4 @@
-//importing
+// importing
 import { toDoItems, showItems, checkButton } from './status.js';
 import { editToDo } from './removeItem.js';
 
