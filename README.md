@@ -131,8 +131,8 @@ In order to run this project you need:
  
 ### Usage
 
-- Clone the repository using "`https://github.com/harshi0102/todolist.git`"
-- Change directory into the project folder `cd todolist`
+- Clone the repository using "`https://github.com/harshi0102/todolist-review.git`"
+- Change directory into the project folder `cd todolist-review`
 - Run `npm install`
 - Run `npm start`
 - A new browser will open automatically with application loaded
