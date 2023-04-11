@@ -1,2 +1,2 @@
-# todolist-review
-To Do List review
+# ToDoListReview
+Learning the best JavaScript practices
