@@ -28,12 +28,6 @@
 
 # 📖-About-the-Project <a name="about-project"></a>
 
-![screenshot 1](./src/img/ToDo1.png)
-![screenshot 2](./src/img/ToDo2.png)
-![screenshot 3](./src/img/ToDo3.png)
-![screenshot 4](./src/img/ToDo4.png)
-![screenshot 5](./src/img/ToDo5.png)
-
 -***Live Demo Link***- https://harshi0102.github.io/todolist/
 
 **To-do-list** is a project done for the activity "To Do list: list structure" of the Microverse Program. The goal is to to learn use webpack and javascript ES6.
