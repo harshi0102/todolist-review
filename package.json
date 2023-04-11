@@ -1,0 +1,33 @@
+{
+  "name": "todolist-review",
+  "version": "1.0.0",
+  "description": "Learning the best JavaScript practices",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.8",
+    "html-webpack-plugin": "^5.5.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "file:1.x",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.2"
+  }
+}
